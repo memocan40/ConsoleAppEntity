@@ -11,6 +11,6 @@ namespace ConsoleApp1.models
         public int BenutzerId { get; set; }
         public string? Name { get; set; }
         // Weitere Eigenschaften
-        public virtual ICollection<Beleg> Belege { get; set; }
+        public virtual ICollection<Beleg>? Belege { get; set; }
     }
 }
